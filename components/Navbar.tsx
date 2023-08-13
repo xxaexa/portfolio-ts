@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import Link from 'next/link'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [isMenuToggled, setIsMenuToggled] = useState(true)
@@ -11,11 +11,27 @@ const Navbar = () => {
       {/* Desktop Nav */}
       <ul className="w-5/6 mx-auto flex flex-wrap justify-between py-3  items-center">
         <div className="">
-          <li className="text-2xl font-bold cursor-pointer">EX A</li>
+          <li className="text-2xl font-semibold cursor-pointer">EX_</li>
         </div>
         <div className="hidden md:flex space-x-6">
-          <Link href={'#home'}>HOME</Link>
-          <Link href={'#portfolio'}>PORTFOLIO</Link>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="cursor-pointer">
+            HOME
+          </Link>
+          <Link
+            activeClass="active"
+            to="portfolio"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="cursor-pointer">
+            PORTFOLIO
+          </Link>
         </div>
       </ul>
       <button
@@ -42,10 +58,26 @@ const Navbar = () => {
       <div className="relative">
         <ul
           className={`px-4 w-full md:hidden absolute flex flex-col transition-all duration-500 ease-in-out text-right ${
-            isMenuToggled === true ? 'right-0' : 'right-[990px] overflow-hidden'
+            !isMenuToggled ? 'right-0' : 'right-[990px] overflow-hidden'
           }`}>
-          <Link href={'#home'}>HOME</Link>
-          <Link href={'#portfolio'}>PORTFOLIO</Link>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="cursor-pointer">
+            HOME
+          </Link>
+          <Link
+            activeClass="active"
+            to="portfolio"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="cursor-pointer">
+            PORTFOLIO
+          </Link>
         </ul>
       </div>
     </nav>

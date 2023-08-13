@@ -18,7 +18,7 @@ export const portfolios = [
   {
     id: 0,
     thumb: '/gi.png',
-    title: 'G-DB',
+    title: 'GIDB',
     link: 'https://gidb-exa.netlify.app/',
     description:
       'This is a database about character,weapon and artifact in genshin impact',
@@ -35,7 +35,7 @@ export const portfolios = [
   {
     id: 2,
     thumb: '/jva.png',
-    title: 'JavaIn',
+    title: 'JawaIn',
     link: 'https://jawa-in-xxaexa.vercel.app/',
     description: 'Build A landing page for course bahasa jawa',
     stack: 'Build Next + Tailwind',

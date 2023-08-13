@@ -1,16 +1,63 @@
+'use client'
+
 import { social, stack } from '@/constant'
-import Button from './Button'
 import Image from 'next/image'
+import { useState } from 'react'
 
 const Hero = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const handleClick = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
     <div id="home" className="mx-auto w-5/6 sm:min-h-screen grid text-3xl">
+      {isOpen && (
+        <>
+          <div
+            className="fixed w-full h-full top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2
+          p-10">
+            <div className="flex flex-col justify-center items-center min-h-screen ">
+              <div className="bg-black p-4 rounded-xl bg-opacity-50">
+                <h2 className="text-center">DOWNLOAD CV</h2>
+                <div className="flex gap-12 my-12">
+                  <a href="/CV.pdf">
+                    <button
+                      className="rounded-lg bg-indigo-500 w-48 text-center text-white hover:bg-indigo-100 hover:text-black tracking-widest duration-500 ease-in-out"
+                      onClick={handleClick}>
+                      INDONESIA
+                    </button>
+                  </a>
+                  <a href="/CV-ENG.pdf">
+                    <button
+                      className="rounded-lg bg-indigo-500 w-48 text-center text-white hover:bg-indigo-100 hover:text-white tracking-widest duration-500 ease-in-out"
+                      onClick={handleClick}>
+                      ENGLISH
+                    </button>
+                  </a>
+                </div>
+                <button
+                  className="mx-auto block rounded-lg bg-white w-48 text-center text-red-400 hover:bg-red-400 hover:text-white tracking-widest duration-500 ease-in-out"
+                  onClick={handleClick}>
+                  CLOSE
+                </button>
+              </div>
+            </div>
+          </div>
+        </>
+      )}
       <div className="w-full grid mt-24">
         <div className="flex justify-center items-center">
           <div className="text-center mx-auto">
             <h2 className="my-6">HI IM ANDRE</h2>
             <p className="my-6">NOW I'M A FRONT END DEVELOPER</p>
-            <Button title={'CV'} link="/CV.pdf" />
+            <button
+              className="rounded-lg bg-indigo-500 w-32 text-center text-white hover:bg-indigo-100 hover:text-black tracking-widest duration-500 ease-in-out"
+              type="button"
+              onClick={handleClick}>
+              GET CV
+            </button>
             <div className="flex justify-center space-x-6 my-4">
               {social.map((s) => (
                 <a
