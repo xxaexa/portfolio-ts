@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="flex justify-center items-center">
           <div className="text-center mx-auto">
             <h2 className="my-6">HI IM ANDRE</h2>
-            <p className="my-6">NOW I'M A FRONT END DEVELOPER</p>
+            <p className="my-6">{"NOW I'M A FRONT END DEVELOPER"}</p>
             <button
               className="rounded-lg bg-indigo-500 w-32 text-center text-white hover:bg-indigo-100 hover:text-black tracking-widest duration-500 ease-in-out"
               type="button"
