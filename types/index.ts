@@ -1,7 +1,6 @@
-import { MouseEventHandler } from 'react'
-
 export interface ButtonProps {
   title: string
+  link: string
 }
 
 export interface QueryProps {
