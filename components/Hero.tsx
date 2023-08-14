@@ -21,7 +21,7 @@ const Hero = () => {
             <div className="flex flex-col justify-center items-center min-h-screen ">
               <div className="bg-black p-4 rounded-xl bg-opacity-50">
                 <h2 className="text-center">DOWNLOAD CV</h2>
-                <div className="flex gap-12 my-12">
+                <div className="flex flex-col md:flex-row gap-12 my-12">
                   <a href="/CV.pdf">
                     <button
                       className="rounded-lg bg-indigo-500 w-48 text-center text-white hover:bg-indigo-100 hover:text-black tracking-widest duration-500 ease-in-out"
@@ -31,7 +31,7 @@ const Hero = () => {
                   </a>
                   <a href="/CV-ENG.pdf">
                     <button
-                      className="rounded-lg bg-indigo-500 w-48 text-center text-white hover:bg-indigo-100 hover:text-white tracking-widest duration-500 ease-in-out"
+                      className="rounded-lg bg-indigo-500 w-48 text-center text-white hover:bg-indigo-100 hover:text-black tracking-widest duration-500 ease-in-out"
                       onClick={handleClick}>
                       ENGLISH
                     </button>
