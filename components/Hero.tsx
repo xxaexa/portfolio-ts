@@ -64,7 +64,7 @@ const Hero = () => {
                   href={s.link}
                   key={s.id}
                   target="_blank"
-                  className="text-3xl hover:text-indigo-500">
+                  className="text-3xl hover:text-indigo-500 duration-500 ease-in-out">
                   {s.icon}
                 </a>
               ))}
