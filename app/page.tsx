@@ -1,7 +1,7 @@
 'use client'
 
 import Hero from '@/components/Hero'
-import Portfolio from '@/components/Portfolio'
+import Portfolios from '@/components/Portfolios'
 import { motion } from 'framer-motion'
 import Navbar from '@/components/Navbar'
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
       <motion.div>
         <Hero />
-        <Portfolio />
+        <Portfolios />
       </motion.div>
     </main>
   )

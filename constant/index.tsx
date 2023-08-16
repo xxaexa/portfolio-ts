@@ -16,37 +16,33 @@ export const stack = [
 
 export const portfolios = [
   {
-    id: 0,
-    thumb: '/gi.png',
-    title: 'GIDB',
+    imageUrl: '/gi.png',
+    title: 'Genshin DB',
     link: 'https://gidb-exa.netlify.app/',
     description:
-      'This is a database about character,weapon and artifact in genshin impact',
-    stack: 'Build With MERN + Tailwind',
+      'Build A web to show character,artifact and character in Genshin Impact',
+    tags: ['React', 'Redux', 'Tailwind', 'Express', 'MongoDB'],
   },
   {
-    id: 1,
-    thumb: '/ex.png',
+    imageUrl: '/ex.png',
     title: 'TOPUP',
     link: 'https://topup-exa.netlify.app/',
     description: 'Topup store for online game',
-    stack: 'Build With MERN + Tailwind',
+    tags: ['React', 'Redux', 'Tailwind', 'Express', 'MongoDB'],
   },
   {
-    id: 2,
-    thumb: '/jva.png',
+    imageUrl: '/jva.png',
     title: 'JawaIn',
     link: 'https://jawa-in-xxaexa.vercel.app/',
     description: 'Build A landing page for course bahasa jawa',
-    stack: 'Build Next + Tailwind',
+    tags: ['React', 'Next.js', 'Tailwind'],
   },
   {
-    id: 3,
-    thumb: '/gya.png',
+    imageUrl: '/gya.png',
     title: 'Gyarari',
     link: 'https://github.com/xxaexa/gyarari-full-stack',
     description: 'build a gallery where you can upload and download here',
-    stack: 'Build With MERN + Tailwind',
+    tags: ['React', 'Redux', 'Tailwind', 'Express', 'MongoDB'],
   },
 ]
 
