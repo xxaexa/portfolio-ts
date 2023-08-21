@@ -23,7 +23,7 @@ export const portfolios = [
     imageUrl: '/ex.png',
     title: 'TOPUP',
     link: 'https://topup-exa.netlify.app/',
-    description: 'Topup store for online game',
+    description: 'Build A web for Topup online game pc and mobile yes',
     tags: ['React', 'Redux', 'Tailwind', 'Express', 'MongoDB'],
   },
   {
@@ -44,7 +44,8 @@ export const portfolios = [
     imageUrl: '/chat.png',
     title: 'Chat Apps',
     link: 'https://github.com/xxaexa/chat-app-next',
-    description: 'build a chat apps ',
+    description:
+      'build a chat apps where you can chat with your friend and your crush ',
     tags: ['React', 'Next.js', 'Firebase', 'Tailwind'],
   },
 ]
