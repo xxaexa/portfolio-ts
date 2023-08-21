@@ -1,6 +1,6 @@
 'use client'
 
-import { social, stack } from '@/constant'
+import { stack } from '@/constant'
 import Image from 'next/image'
 import { useState } from 'react'
 
@@ -12,7 +12,9 @@ const Hero = () => {
   }
 
   return (
-    <div id="home" className="mx-auto w-5/6 sm:min-h-screen grid text-3xl">
+    <div
+      id="home"
+      className="mx-auto px-4  md:px-0 md:w-4/6 sm:min-h-screen grid text-3xl">
       {isOpen && (
         <>
           <div
@@ -24,14 +26,14 @@ const Hero = () => {
                 <div className="flex flex-col md:flex-row gap-12 my-12">
                   <a href="/CV.pdf">
                     <button
-                      className="rounded-lg bg-indigo-500 w-48 text-center text-white hover:bg-indigo-100 hover:text-black tracking-widest duration-500 ease-in-out"
+                      className="rounded-lg bg-indigo-500 w-48 text-center text-white hover:bg-indigo-100 hover:text-indigo-500 tracking-widest duration-500 ease-in-out"
                       onClick={handleClick}>
                       INDONESIA
                     </button>
                   </a>
                   <a href="/CV-ENG.pdf">
                     <button
-                      className="rounded-lg bg-indigo-500 w-48 text-center text-white hover:bg-indigo-100 hover:text-black tracking-widest duration-500 ease-in-out"
+                      className="rounded-lg bg-indigo-500 w-48 text-center text-white hover:bg-indigo-100 hover:text-indigo-500 tracking-widest duration-500 ease-in-out"
                       onClick={handleClick}>
                       ENGLISH
                     </button>
@@ -53,22 +55,11 @@ const Hero = () => {
             <h2 className="my-6">HI IM ANDRE</h2>
             <p className="my-6">{"NOW I'M A FRONT END DEVELOPER"}</p>
             <button
-              className="rounded-lg bg-indigo-500 w-32 text-center text-white hover:bg-indigo-100 hover:text-black tracking-widest duration-500 ease-in-out"
+              className="rounded-lg bg-indigo-500 w-32 text-center text-white hover:bg-indigo-100 hover:text-indigo-500 tracking-widest duration-500 ease-in-out"
               type="button"
               onClick={handleClick}>
               GET CV
             </button>
-            <div className="flex justify-center space-x-6 my-4">
-              {social.map((s) => (
-                <a
-                  href={s.link}
-                  key={s.id}
-                  target="_blank"
-                  className="text-3xl hover:text-indigo-500 duration-500 ease-in-out">
-                  {s.icon}
-                </a>
-              ))}
-            </div>
           </div>
         </div>
       </div>

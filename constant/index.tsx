@@ -1,8 +1,4 @@
-import {
-  AiOutlineInstagram,
-  AiOutlineLinkedin,
-  AiOutlineGithub,
-} from 'react-icons/ai'
+import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 export const stack = [
   '/react.png',
@@ -44,25 +40,32 @@ export const portfolios = [
     description: 'build a gallery where you can upload and download here',
     tags: ['React', 'Redux', 'Tailwind', 'Express', 'MongoDB'],
   },
+  {
+    imageUrl: '/chat.png',
+    title: 'Chat Apps',
+    link: 'https://github.com/xxaexa/chat-app-next',
+    description: 'build a chat apps ',
+    tags: ['React', 'Next.js', 'Firebase', 'Tailwind'],
+  },
 ]
 
 export const social = [
   {
     id: 1,
     title: 'Ig',
-    icon: <AiOutlineInstagram />,
+    icon: <AiFillInstagram />,
     link: 'https://www.instagram.com/andreekaaa1/',
   },
   {
     id: 2,
     title: 'Linkedin',
-    icon: <AiOutlineLinkedin />,
+    icon: <AiFillLinkedin />,
     link: 'https://www.linkedin.com/in/andre-eka-94009b279/',
   },
   {
     id: 3,
     title: 'Github',
-    icon: <AiOutlineGithub />,
+    icon: <AiFillGithub />,
     link: 'https://github.com/xxaexa',
   },
 ]
