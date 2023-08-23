@@ -43,7 +43,7 @@ export const portfolios = [
   {
     imageUrl: '/chat.png',
     title: 'Chat Apps',
-    link: 'https://github.com/xxaexa/chat-app-next',
+    link: 'https://chat-5rae81xrm-xxaexa.vercel.app',
     description:
       'build a chat apps where you can chat with your friend and your crush ',
     tags: ['React', 'Next.js', 'Firebase', 'Tailwind'],
