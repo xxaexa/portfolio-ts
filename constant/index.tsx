@@ -15,8 +15,7 @@ export const portfolios = [
     imageUrl: '/gi.png',
     title: 'Genshin DB',
     link: 'https://gidb-exa.netlify.app/',
-    description:
-      'Build A web to show character,artifact and character in Genshin Impact',
+    description: 'first project il make A web about data Genshin Impact',
     tags: ['React', 'Redux', 'Tailwind', 'Express', 'MongoDB'],
   },
   {
@@ -30,7 +29,7 @@ export const portfolios = [
     imageUrl: '/jva.png',
     title: 'JawaIn',
     link: 'https://jawa-in-xxaexa.vercel.app/',
-    description: 'Build A landing page for course bahasa jawa',
+    description: 'Build A landing page for course bahasa jawa in semarang',
     tags: ['React', 'Next.js', 'Tailwind'],
   },
   {
@@ -44,8 +43,7 @@ export const portfolios = [
     imageUrl: '/chat.png',
     title: 'Chat Apps',
     link: 'https://chat-5rae81xrm-xxaexa.vercel.app',
-    description:
-      'build a chat apps where you can chat with your friend and your crush ',
+    description: 'build a chat apps where you can chat with your friend ',
     tags: ['React', 'Next.js', 'Firebase', 'Tailwind'],
   },
 ]
