@@ -73,7 +73,7 @@ const Hero = () => {
                 width={150}
                 height={150}
                 alt={s}
-                className="w-52 block hover:bg-white hover:bg-opacity-50 rounded-full duration-500 ease-in-out"
+                className="w-52 block hover:bg-white hover:bg-opacity-50 rounded-lg duration-500 ease-in-out"
               />
             </div>
           ))}
