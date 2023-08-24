@@ -30,7 +30,7 @@ export const portfolios = [
     title: 'JawaIn',
     link: 'https://jawa-in-xxaexa.vercel.app/',
     description: 'Build A landing page for course bahasa jawa in semarang',
-    tags: ['React', 'Next.js', 'Tailwind'],
+    tags: ['TypeScript', 'React', 'Next.js', 'Tailwind'],
   },
   {
     imageUrl: '/gya.png',
