@@ -35,7 +35,7 @@ export const portfolios = [
   {
     imageUrl: '/gya.png',
     title: 'Gyarari',
-    link: 'https://gyarari-frontend.vercel.app/post',
+    link: 'https://gyarari-frontend.vercel.app/',
     description: 'build a gallery where you can upload and download here',
     tags: ['React', 'Redux', 'Tailwind', 'Express', 'MongoDB'],
   },
