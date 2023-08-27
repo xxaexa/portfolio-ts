@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="mx-auto px-4  md:px-0 md:w-4/6 sm:min-h-screen grid text-3xl">
+      className="mx-auto px-4  md:px-0 md:w-4/6 lg:min-h-screen grid text-3xl">
       {isOpen && (
         <>
           <div
@@ -67,14 +67,10 @@ const Hero = () => {
         <p className="text-center">SKILLS</p>
         <div className="grid grid-cols-2 md:grid-cols-4 mt-4 gap-8 place-items-center place-content-center">
           {stack.map((s, index) => (
-            <div key={index}>
-              <Image
-                src={s}
-                width={150}
-                height={150}
-                alt={s}
-                className="w-52 block hover:bg-white hover:bg-opacity-50 rounded-lg duration-500 ease-in-out"
-              />
+            <div
+              key={index}
+              className="text-5xl hover:text-indigo-500 duration-500 ease-in-out">
+              {s}
             </div>
           ))}
         </div>
