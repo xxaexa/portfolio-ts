@@ -30,9 +30,10 @@ export const portfolios = [
   {
     imageUrl: '/gi.png',
     title: 'Genshin DB',
-    live: 'https://gidb-exa.netlify.app/',
+    live: 'https://genshin-db-pi.vercel.app//',
     code: 'https://github.com/xxaexa/genshin-db',
-    description: 'first project il make A web about data Genshin Impact',
+    description:
+      'Build a website to show artifact,character and weapon in genshin impact',
     tags: [
       <SiReact />,
       <SiRedux />,
