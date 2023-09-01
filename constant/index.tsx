@@ -87,6 +87,22 @@ export const portfolios = [
     description: 'build a chat apps where you can chat with your friend ',
     tags: [<SiReact />, <SiNextdotjs />, <SiTailwindcss />, <SiFirebase />],
   },
+  {
+    imageUrl: '/vst.png',
+    title: 'Vape Store',
+
+    code: 'https://github.com/xxaexa/vape-store',
+    description:
+      'building e-commerce web for vapestore, but now this project is under maintenance,and will update it soon',
+    tags: [
+      <SiReact />,
+      <SiRedux />,
+      <SiTailwindcss />,
+      <SiExpress />,
+      <SiMongodb />,
+      <SiFirebase />,
+    ],
+  },
 ]
 
 export const social = [
