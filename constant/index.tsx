@@ -90,10 +90,9 @@ export const portfolios = [
   {
     imageUrl: '/vst.png',
     title: 'Vape Store',
-
+    live: 'https://vape-store-psi.vercel.app/',
     code: 'https://github.com/xxaexa/vape-store',
-    description:
-      'building e-commerce web for vapestore, but now this project is under maintenance,and will update it soon',
+    description: 'building e-commerce web for vapestore',
     tags: [
       <SiReact />,
       <SiRedux />,
